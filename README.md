@@ -1,23 +1,17 @@
 # extension-chrome
  
- Explicación completa
-{
-  "manifest_version": 3,
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
-  "version": "1.0",
+Esta extensión tiene la finalidad de cambiar el color de fondo de la página de Google + sus búsquedas.
+
+ Explicación del manifest
+
   "action": { //cada vez que entra en el botón de extensión toma el código html, el popup.html
     "default_popup": "popup.html",
     "default_icon": { //define los íconos 
-      "32": "/img/mundo32.png",
-      "48": "/img/mundo48.png",
-      "128": "/img/mundo128.png"
+      "32": "/img/mundo32.png", //32 es el tamaño, podemos setear varios
     }
   },
   "icons": { //define los íconos dentro del menú de extensiones general
     "32": "/img/mundo32.png",
-    "48": "/img/mundo48.png",
-    "128": "/img/mundo128.png"
   },
   "content_scripts":[
     {
@@ -26,4 +20,3 @@
     }
   ]
   
-}
