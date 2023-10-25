@@ -10,9 +10,11 @@ Esta extensión tiene la finalidad de cambiar el color de fondo de la página de
       "32": "/img/mundo32.png", //32 es el tamaño, podemos setear varios
     }
   },
+  <br>
   "icons": { //define los íconos dentro del menú de extensiones general
     "32": "/img/mundo32.png",
   },
+  <br>
   "content_scripts":[
     {
       "matches": ["https://www.google.com.ar/*"], //toma como match la página de Google y sus derivados. El * hace que si hacemos una búsqueda, lo reconozca como parte del dominio Google
